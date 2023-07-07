@@ -8,7 +8,7 @@
 
 main:
     li t0, 0x8008
-    sw t0, TRISBSET
+    sw t0, TRISBCLR
 
     li t0, 0x1 << 15
     sw t0, LATB
